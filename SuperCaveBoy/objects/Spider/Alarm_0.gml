@@ -1,0 +1,1 @@
+/// @description This delays the idle state after a jump
