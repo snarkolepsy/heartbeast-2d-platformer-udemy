@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Exit",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"FireBubble",
+  "eventList":[],
   "managed":true,
-  "name":"Exit",
+  "name":"FireBubble",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level",
-    "path":"folders/Objects/Level.yy",
+    "name":"Effects",
+    "path":"folders/Objects/Effects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Blood",
+    "path":"objects/Blood/Blood.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_exit",
-    "path":"sprites/spr_exit/spr_exit.yy",
+    "name":"spr_fire_bubble",
+    "path":"sprites/spr_fire_bubble/spr_fire_bubble.yy",
   },
   "spriteMaskId":null,
   "visible":true,

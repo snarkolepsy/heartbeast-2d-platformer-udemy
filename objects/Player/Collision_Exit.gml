@@ -1,5 +1,5 @@
 /// @description Collide with the Exit and go to the next Room!
-if (up) { // Activates Exit with UP keystroke
+if (up && other.visible) { // Activates Exit with UP keystroke
 	
 	// Workaround for "kipping" bug --> undo the y displacement
 	y = yprevious;

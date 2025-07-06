@@ -1,18 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Boss",
+  "%Name":"Lava",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"FireBubble","path":"objects/FireBubble/FireBubble.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Boss",
+  "name":"Lava",
   "overriddenProperties":[],
   "parent":{
-    "name":"Boss",
-    "path":"folders/Objects/Boss.yy",
+    "name":"Level",
+    "path":"folders/Objects/Level.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_boss",
-    "path":"sprites/spr_boss/spr_boss.yy",
+    "name":"spr_lava",
+    "path":"sprites/spr_lava/spr_lava.yy",
   },
   "spriteMaskId":null,
   "visible":true,

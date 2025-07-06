@@ -12,7 +12,7 @@ vspd = 0;
 // Jump Speed
 jspd = 16;
 
-// Rate of veritcal descent when Player is in the air
+// Rate of vertical descent when Player is in the air
 grav = 1.5;
 
 // Beginning state when game begins
